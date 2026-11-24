@@ -36,3 +36,19 @@ button {
   margin-bottom: 5px;
   cursor: pointer;
 }
+
+#aviso-permiso {
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #e67e22;
+  border-radius: 8px;
+}
+
+#visor-camara {
+  display: block;
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 15px;
+  background: black;
+  border-radius: 8px;
+}

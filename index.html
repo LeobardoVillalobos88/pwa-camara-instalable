@@ -20,6 +20,25 @@
     <section id="instrucciones-ios" class="card" hidden>
       <p>Para instalar en iPhone, pulsa el icono Compartir y selecciona 'Agregar a inicio'.</p>
     </section>
+
+    <section class="card">
+      <h2>Cámara</h2>
+      <button id="btn-preparar-camara" type="button">Solicitar Acceso a Cámara</button>
+
+      <div id="aviso-permiso" hidden>
+        <p>Esta aplicación requiere acceso a tu cámara únicamente para mostrar una vista previa local en pantalla. Ninguna imagen se envía a servidores externos.</p>
+        <p>Se encenderá la cámara <span id="camara-aviso">trasera</span>.</p>
+        <button id="btn-confirmar-permiso" type="button">Aceptar y Encender Cámara</button>
+      </div>
+
+      <p id="mensaje-estado">Cámara apagada</p>
+      <video id="visor-camara" autoplay playsinline muted></video>
+
+      <div id="controles-camara" hidden>
+        <button id="btn-alternar-camara" type="button">Cambiar Cámara</button>
+        <button id="btn-apagar-camara" type="button">Apagar Cámara</button>
+      </div>
+    </section>
   </main>
 
   <script src="./app.js"></script>
